@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export EASYRSA_BATCH=1
+
 echo "Client name : "
 read CLIENT_NAME
 
